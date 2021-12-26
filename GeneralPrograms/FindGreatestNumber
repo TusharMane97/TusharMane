@@ -1,0 +1,22 @@
+package generalProgram;
+
+import java.util.Scanner;
+
+public class FindGreatestNumber {
+	
+	public static void main(String[]args) {
+		
+		int a,b;
+		System.out.println("Enter the two numbers");
+		Scanner obj = new Scanner(System.in);
+		a=obj.nextInt();
+		b=obj.nextInt();
+		if(a>b) {
+			
+			System.out.println("The Number "+a+" is greater than "+b+" ");
+		}else {
+			System.out.println("The Number "+a+" is lesser than "+b+" ");
+		}
+	}
+}
+	
