@@ -13,7 +13,7 @@ public class ChromeBrowserLaunch {
 	static WebDriver driver;
 	public static void LaunchBrowser() {
 		
-		System.setProperty("webdriver.chrome.driver","E:\\jAVAAAAAAAA\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","F:\\jAVAAAAAAAA\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	

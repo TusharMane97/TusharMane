@@ -13,7 +13,7 @@ public class FlipkartTest {
 
 		public static void launchBrowser() {
 
-			System.setProperty("webdriver.chrome.driver", "E:\\jAVAAAAAAAA\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "F:\\jAVAAAAAAAA\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 
@@ -49,7 +49,7 @@ public class FlipkartTest {
 			}
 			
 			driver.findElement(By.xpath("//button[contains(@class,'_2KpZ6l _2U9uOA _3v1-ww')]")).click();
-
+			
 		
 		}
 		public static void main(String[] args) {

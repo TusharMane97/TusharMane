@@ -24,6 +24,7 @@ public class RadioButtonHandling {
 
 	public static void openApplicationUrl(String url) {
 		driver.get(url);
+		
 	}
 	public static void handleRadioButton() {
 		

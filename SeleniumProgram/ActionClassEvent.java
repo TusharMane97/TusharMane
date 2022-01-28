@@ -30,7 +30,7 @@ public class ActionClassEvent {
 		WebElement signLnk=driver.findElement(By.cssSelector("a#nav-link-accountList"));
 		Actions action = new Actions(driver);
 		action.moveToElement(signLnk).perform();
-		//action.moveToElement(driver.findElement(By.xpath("//div[@data-value='search-alias=aps']"))).click().build().perform();
+		action.moveToElement(driver.findElement(By.xpath("//div[@data-value='search-alias=aps']"))).click().build().perform();
 		//action.click(driver.findElement(By.xpath("//div[@data-value='search-alias=aps']"))).perform();
 		//action.moveToElement(driver.findElement(By.linkText("Gift a Smile"))).perform();
 		//action.moveToElement(driver.findElement(By.linkText("About Us"))).perform();

@@ -60,7 +60,7 @@ public class WindowHandles {
 			}
 		}
 	*/	
-	//	driver.switchTo().window(parentHandle);
+	//driver.switchTo().window(parentHandle);
 	//	System.out.println(driver.getTitle());
 	}
 
